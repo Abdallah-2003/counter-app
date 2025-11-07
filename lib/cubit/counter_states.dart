@@ -1,5 +1,5 @@
-class CounterState{}
+class CounterState {}
 
-class CounterAState extends CounterState{}
+class CounterAscState extends CounterState {}
 
-class CounterBState extends CounterState{}
+class CounterZscState extends CounterState {}

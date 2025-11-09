@@ -15,4 +15,9 @@ class CounterCubit extends Cubit<CounterState> {
       emit(CounterZscState());
     }
   }
+
+  void reset() {
+    asc = zsc = 0;
+    emit(InitialState());
+  }
 }
